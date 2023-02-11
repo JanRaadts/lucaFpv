@@ -1,0 +1,30 @@
+
+
+.container{
+height: 100svh;
+padding: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+}
+
+.title{
+font-size: 2.5rem;
+font-weight: normal;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+.aboutmepicture{
+margin-top: 15px;
+margin-bottom: 15px;
+border-radius: 100%;
+width: 60vw;
+max-width: 300px;
+}
+
+.text{
+margin-top: 15px;
+font-size: 1.2rem;
+}

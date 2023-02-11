@@ -1,0 +1,32 @@
+*{
+    /* border: red dotted 2px; */
+}
+
+.container{
+    background-color: #1B1B1B;
+    height: 100svh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    }
+    
+    .title{
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+    }
+
+    .youtube-container{
+    z-index: 2;
+    border-radius: 20px;
+    }
+
+    .youtube{
+       z-index: 0;
+       border-radius: 20px;
+    }
+    
