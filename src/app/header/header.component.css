@@ -6,11 +6,15 @@
     height: 80px;
     width: 100vw;
     background-color: #1B1B1B;
-    color: white;
     font-size: 18px;
     font-weight: lighter;
     font-family: sans-serif;
     border-radius: 0 0 15px 15px;
     position: absolute;
-    top:0;
+    top:0; 
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
