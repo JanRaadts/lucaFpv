@@ -1,5 +1,5 @@
 .container{
-    height: 100svh;
+    height: 100vh;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -12,6 +12,46 @@
     font-weight: normal;
     margin-top: 15px;
     margin-bottom: 15px;
+    }
+
+
+    .input{
+        border-radius: 25px;
+        width: 70vw;
+        height: 2.5rem;
+        border: none;
+        background: rgba(217, 217, 217, 0.39);
+        margin-bottom: 10px;
+    }
+
+    .textarea{
+        border-radius: 25px;
+        width: 70vw;
+        height: 6rem;
+        border: none;
+        background: rgba(217, 217, 217, 0.39);
+    }
+
+    .label{
+        display: block;
+        padding: 5px;
+        margin-left: 10px;
+    }
+
+    .buttoncontainer{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button{
+        background: #373737;
+border-radius: 24.5px;
+width: 30vw;
+height: 2.5rem;
+color: white;
+border: none;
     }
     
    
