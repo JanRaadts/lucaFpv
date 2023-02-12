@@ -5,7 +5,8 @@
     justify-content: space-around;
     height: 80px;
     width: 100vw;
-    background-color: #1B1B1B;
+    /* background-color: #1B1B1B; */
+    background-color: white;
     font-size: 18px;
     font-weight: lighter;
     font-family: sans-serif;
@@ -16,5 +17,5 @@
 
 a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
