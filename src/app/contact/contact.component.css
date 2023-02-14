@@ -59,5 +59,14 @@ color: white;
 border: none;
 font-size: 1.2rem;
     }
+
+    .text{
+        margin-top: 15px;
+        margin-bottom: 20px;
+        font-size: 1.3rem;
+        font-weight: lighter;
+        text-align: justify;
+        line-height: 1.8rem;
+        }
     
    
