@@ -1,5 +1,5 @@
 .container{
-    background-color: #FF985E;
+    background-color: #234476;
     min-height: 100vh;
     padding: 20px;
     display: flex;
@@ -26,6 +26,7 @@
     }
 
     .text{
+        width: 80vw;
         color: white;
         margin-top: 15px;
         font-size: 1.3rem;
@@ -34,5 +35,10 @@
         line-height: 1.8rem;
         }
 
+
+p{
+    hyphens: auto;
+    text-align: justify;
+}
 
     

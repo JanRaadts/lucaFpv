@@ -60,7 +60,8 @@ border: none;
 font-size: 1.2rem;
     }
 
-    .text{
+.text{
+        width: 80vw;
         margin-top: 15px;
         margin-bottom: 20px;
         font-size: 1.3rem;
@@ -70,3 +71,7 @@ font-size: 1.2rem;
         }
     
    
+p{
+    hyphens: auto;
+    text-align: justify;
+}
