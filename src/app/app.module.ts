@@ -10,6 +10,9 @@ import { AboutmeComponent } from './aboutme/aboutme.component';
 import { ReferencesComponent } from './references/references.component';
 import { ContactComponent } from './contact/contact.component';
 import { ServicesComponent } from './services/services.component';
+import { EyecatcherComponent } from './eyecatcher/eyecatcher.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatIconModule} from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -19,12 +22,15 @@ import { ServicesComponent } from './services/services.component';
     AboutmeComponent,
     ReferencesComponent,
     ContactComponent,
-    ServicesComponent
+    ServicesComponent,
+    EyecatcherComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    YouTubePlayerModule
+    YouTubePlayerModule,
+    BrowserAnimationsModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
