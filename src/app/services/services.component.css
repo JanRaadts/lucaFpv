@@ -1,6 +1,6 @@
 .container{
-    background-color: #0A2645;
-    min-height: 100vh;
+    background-color: white;
+    /* min-height: 100vh; */
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -13,21 +13,20 @@
     font-weight: normal;
     margin-top: 15px;
     /* margin-bottom: 25px; */
-    color: white;
+    color: #0A2645;
     }
 
     .projectnames{
         font-size: 1.5rem;
         font-weight: normal;
-        margin-top: 40px;
         margin-bottom: 5px;
-        color: white;
+        color: #0A2645;
         text-align: center;
     }
 
     .text{
         width: 73vw;
-        color: white;
+        color: #0A2645;
         margin-top: 15px;
         font-size: 1.3rem;
         font-weight: lighter;
