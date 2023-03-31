@@ -13,6 +13,7 @@ import { ServicesComponent } from './services/services.component';
 import { EyecatcherComponent } from './eyecatcher/eyecatcher.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatIconModule} from '@angular/material/icon';
+import { LoadingSpinnerComponent } from './loading-spinner/loading-spinner.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import {MatIconModule} from '@angular/material/icon';
     ReferencesComponent,
     ContactComponent,
     ServicesComponent,
-    EyecatcherComponent
+    EyecatcherComponent,
+    LoadingSpinnerComponent
   ],
   imports: [
     BrowserModule,
