@@ -11,7 +11,7 @@
     font-weight: lighter;
     font-family: sans-serif;
     border-radius: 0 0 15px 15px;
-    padding: 0 1.5rem 0 1.5rem;
+    padding: 0 2rem 0 2rem;
 
 }
 
@@ -20,11 +20,30 @@ a{
     color: black;
 }
 
-h1{
+.title{
+    margin-left: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
     color: #0A2645;
     font-size: 1.8rem;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.F{
+    /* color:#DC4431 ; */
+    /* color: #FAD849; */
+    color: #3a4fbc;
+    font-size: 1.6rem;
+}
+
+.P{
+    color: #3a4fbc;
+    /* color: #FAD849; */
+    font-size: 1.6rem;
 }
 
 .icon{
-    font-size: 1.8rem;
+    font-size: 2rem;
+    color: #0A2645;
 }
