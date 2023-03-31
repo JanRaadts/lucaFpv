@@ -1,5 +1,5 @@
 .container{
-    background-color: #234476;
+    background-color: #0A2645;
     min-height: 100vh;
     padding: 20px;
     display: flex;
@@ -18,7 +18,7 @@
 
     .projectnames{
         font-size: 1.5rem;
-        font-weight: lighter;
+        font-weight: normal;
         margin-top: 40px;
         margin-bottom: 5px;
         color: white;
@@ -26,7 +26,7 @@
     }
 
     .text{
-        width: 80vw;
+        width: 73vw;
         color: white;
         margin-top: 15px;
         font-size: 1.3rem;
@@ -41,4 +41,26 @@ p{
     text-align: justify;
 }
 
+.scroll{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+}
+
+.category{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.aboutmepicture{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    width: 75vw;
+    max-width: 400px;
+    }
     

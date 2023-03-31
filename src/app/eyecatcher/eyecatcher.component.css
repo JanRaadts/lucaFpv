@@ -1,5 +1,5 @@
 .container{
-    height: calc(100svh - 80px);
+    height: calc(100svh - 60px);
     width: 100vw;
     display: flex;
     flex-direction: column;
