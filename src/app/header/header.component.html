@@ -1,11 +1,11 @@
 <section class="header-section">
 <p class="title"><span class="F">F</span><span class="P">P</span>Vision</p>
-<mat-icon class="icon">menu</mat-icon> 
+<mat-icon class="icon" (click)="nav = !nav">menu</mat-icon> 
 </section>
 
 
-<div *ngIf="nav === true" class="navLinks">
+<section *ngIf="nav === true" class="navLinks">
     <a href="#aboutme">About Me</a>
     <a href="#leistungen">Leistungen</a>
     <a href="#kontakt">Kontakt</a>
-</div>
+</section>

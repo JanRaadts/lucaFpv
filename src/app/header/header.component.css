@@ -5,7 +5,6 @@
     justify-content: space-between;
     height: 60px;
     width: 100vw;
-    /* background-color: #1B1B1B; */
     background-color: white;
     font-size: 18px;
     font-weight: lighter;
@@ -16,8 +15,10 @@
 }
 
 a{
-    text-decoration: none;
-    color: black;
+   padding: 1rem;
+   text-decoration: none;
+   color: #0A2645;
+    font-size: 1.5rem;
 }
 
 .title{
@@ -31,15 +32,12 @@ a{
 }
 
 .F{
-    /* color:#DC4431 ; */
-    /* color: #FAD849; */
     color: #3a4fbc;
     font-size: 1.6rem;
 }
 
 .P{
     color: #3a4fbc;
-    /* color: #FAD849; */
     font-size: 1.6rem;
 }
 
@@ -47,3 +45,13 @@ a{
     font-size: 2rem;
     color: #0A2645;
 }
+
+.navLinks{
+width: 100vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+

@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
-nav: any = false
+nav: boolean = false
 }
