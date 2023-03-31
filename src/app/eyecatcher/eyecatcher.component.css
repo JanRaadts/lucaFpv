@@ -34,3 +34,19 @@
         height: 100%;
     }
 }
+
+@media (min-width: 600px) {
+    .back-video {
+        display: none;
+    }
+    .content {
+        background: url('src/assets/images/DSCF5635-min.JPG');
+        width: 90vw;
+    
+        background-size: cover;
+    }
+}
+
+.lottie-container{
+  height: 10vh;
+}

@@ -14,6 +14,12 @@ import { EyecatcherComponent } from './eyecatcher/eyecatcher.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatIconModule} from '@angular/material/icon';
 import { LoadingSpinnerComponent } from './loading-spinner/loading-spinner.component';
+import { LottieModule } from 'ngx-lottie';
+import player from 'lottie-web';
+
+export function playerFactory(): any {  
+  return import('lottie-web');
+}
 
 @NgModule({
   declarations: [
@@ -32,7 +38,8 @@ import { LoadingSpinnerComponent } from './loading-spinner/loading-spinner.compo
     AppRoutingModule,
     YouTubePlayerModule,
     BrowserAnimationsModule,
-    MatIconModule
+    MatIconModule,
+    LottieModule.forRoot({ player: playerFactory }),
   ],
   providers: [],
   bootstrap: [AppComponent]
