@@ -12,6 +12,7 @@
     font-weight: normal;
     margin-top: 15px;
     margin-bottom: 25px;
+    color: #0A2645;
     }
 
 
@@ -37,6 +38,7 @@
     }
 
     .label{
+        color: #0A2645;
         display: block;
         padding: 10px;
         margin-left: 10px;
@@ -51,7 +53,7 @@
     }
 
     .button{
-background: #373737;
+background: #0A2645;
 border-radius: 24.5px;
 width: 40vw;
 height: 3rem;
@@ -74,4 +76,5 @@ font-size: 1.2rem;
 p{
     hyphens: auto;
     text-align: justify;
+    color: #0A2645;
 }
