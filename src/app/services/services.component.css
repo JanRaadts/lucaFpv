@@ -23,6 +23,20 @@
         margin: 1rem;
     }
 
+
+    .indoor{
+        background-image: linear-gradient(#00000081, #00000089), url('./../../assets/images/DSCF5640-min.jpg'); 
+    }
+
+    .outdoor{
+        background-image: linear-gradient(#00000081, #00000089), url('./../../assets/images/DeepSixDrone_1.jpeg'); 
+    }
+
+    .vermessung{
+        background-image: linear-gradient(#00000081, #00000089), url('./../../assets/images/drohnenvermessung-in-kiel_218870939.jpg'); 
+    }
+
+
     .button{
         background: white;
         border-radius: 24.5px;
