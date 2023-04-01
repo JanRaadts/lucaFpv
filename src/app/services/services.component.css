@@ -12,7 +12,7 @@
         width: 90vw;
         max-width: 500px;
         height: 40vh;
-        background-image: linear-gradient(#00000081, #00000089), url('./../../assets/images/DSCF5640-min.jpg');
+        background-color:  #eecb3e;
         background-size: cover;
         background-position: center;
         border-radius: 25px;
@@ -25,26 +25,27 @@
 
 
     .indoor{
-        background-image: linear-gradient(#00000081, #00000089), url('./../../assets/images/DSCF5640-min.jpg'); 
+        background-image: linear-gradient(#b0952992, #c6a93689), url('./../../assets/images/DSCF5640-min.jpg'); 
     }
 
     .outdoor{
-        background-image: linear-gradient(#00000081, #00000089), url('./../../assets/images/DeepSixDrone_1.jpeg'); 
+        background-image: linear-gradient(#b06a2992, #c6773689), url('./../../assets/images/DeepSixDrone_1.jpeg'); 
     }
 
     .vermessung{
-        background-image: linear-gradient(#00000081, #00000089), url('./../../assets/images/drohnenvermessung-in-kiel_218870939.jpg'); 
+        background-image: linear-gradient(#9929b092, #ba36c689), url('./../../assets/images/drohnenvermessung-in-kiel_218870939.jpg'); 
     }
 
 
     .button{
-        background: white;
+        background: #0A2645;;
         border-radius: 24.5px;
         width: 40vw;
         height: 3rem;
-        color: #0A2645;
+        color: white;
         border: none;
         font-size: 1rem;
+        font-weight: bolder;
             }
 
     
@@ -67,14 +68,14 @@
     
     .title{
     font-size: 2.5rem;
-    font-weight: normal;
+    font-weight: bold;
     margin-top: 15px;
     color: #0A2645;
     }
 
     .projectnames{
         font-size: 1.5rem;
-        font-weight: normal;
+        font-weight: bolder;
         margin-bottom: 5px;
         color: white;
         text-align: center;
@@ -86,7 +87,7 @@
         color: white;
         margin-top: 15px;
         font-size: 1.3rem;
-        font-weight: lighter;
+        font-weight: normal;
         text-align: justify;
         line-height: 1.8rem;
         }
