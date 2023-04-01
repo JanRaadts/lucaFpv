@@ -39,14 +39,35 @@
     .back-video {
         display: none;
     }
-    .content {
-        background: url('src/assets/images/DSCF5635-min.JPG');
-        width: 90vw;
-    
-        background-size: cover;
-    }
 }
 
 .lottie-container{
   height: 10vh;
 }
+
+.back-video_quer {
+    z-index: -1;
+    border-radius: 25px;
+    max-width: 100vw;
+    }
+  
+    @media (min-aspect-ratio: 16/9) {
+      .back-video_quer {
+          width:100%;
+          max-width: 100vw;
+          height: auto;
+      }
+  }
+  
+  @media (max-aspect-ratio: 16/9) {
+    .back-video_quer { 
+          width:auto;
+          height: 100%;
+      }
+  }
+  
+  @media (max-width: 600px) {
+    .back-video_quer {
+          display: none;
+      }
+  }
